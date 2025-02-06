@@ -10,7 +10,7 @@ import org.testng.Reporter;
 
 public class HomePage {
 
-	@FindBy(xpath="//h3[starts-with(text(),'Welcome to OSPOS')]")
+	@FindBy(xpath="//h3[starts-with(text(),'Welcome to OSPOS,')]")
 	private WebElement welcomeMessage;
 	
 	public HomePage(WebDriver driver)

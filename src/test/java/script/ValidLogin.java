@@ -17,7 +17,7 @@ public class ValidLogin extends BaseTest {
 	    loginpage.setUserName("admin");
 //		2.enter valid pw
 	    test.info("enter valid password");
-	    loginpage.setPassword("pointofsal");
+	    loginpage.setPassword("pointofsale");
 //		3.click on login
 	    test.info("click on login");
 	    loginpage.clickGoButton();

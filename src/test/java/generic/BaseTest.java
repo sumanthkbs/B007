@@ -2,14 +2,13 @@ package generic;
 
 import java.io.IOException;
 
+
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-
-
 
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -29,7 +28,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-import generic.Utility;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
@@ -44,7 +42,7 @@ public class BaseTest {
 	public WebDriverWait wait;
 	public ExtentTest test;
 
-	@BeforeSuite
+	@BeforeSuite 
 	public void initReport() {
 		extent = new ExtentReports();
 		ExtentSparkReporter spark = new ExtentSparkReporter("target/spark.html");

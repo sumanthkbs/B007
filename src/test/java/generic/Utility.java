@@ -2,6 +2,7 @@ package generic;
 
 import java.io.File;
 
+
 import java.io.FileInputStream;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -68,7 +69,7 @@ public class Utility {
 		try
 		{
 			p.load(new FileInputStream(CONFIG_PATH));
-			 value = p.getProperty(key);
+			 value = p.getProperty(key);  
 		}
 		catch(Exception e)
 		{

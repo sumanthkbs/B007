@@ -29,5 +29,5 @@ public class HomePage {
 			Reporter.log("HOme page is displayed",true);
           return false;
 		}
-}
+} 
 }
